@@ -1,0 +1,9 @@
+{
+    "name": "videojs",
+    "description": "A smart package that makes it easy to use Video.js",
+    "homepage": "https://github.com/nate-strauser/meteor-video-js",
+    "author": "Nate Strauser",
+    "version": "0.1.0",
+    "git": "https://github.com/nate-strauser/meteor-video-js.git",
+    "packages": {}
+}
