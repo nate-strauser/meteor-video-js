@@ -1,6 +1,6 @@
 //Functions to run after the script tag has loaded
 var videojsLoadCallback = function(){
-	_V_.options.flash.swf = "https://vjs.zencdn.net/c/video-js.swf";
+	_V_.options.flash.swf = "http://vjs.zencdn.net/4.1/video-js.swf";
 };
 
 //If the script doesn't load
@@ -16,14 +16,14 @@ var head = document.getElementsByTagName('head')[0];
 var style = document.createElement('link');
 style.type = 'text/css';
 style.rel = "stylesheet";
-style.href = 'https://vjs.zencdn.net/c/video-js.css';
+style.href = 'http://vjs.zencdn.net/4.1/video-js.css';
 
 head.appendChild(style);
 
 //Generate a script tag
 var script = document.createElement('script');
 script.type = 'text/javascript';
-script.src = 'https://vjs.zencdn.net/c/video.js';
+script.src = 'http://vjs.zencdn.net/4.1/video.js';
 script.onload = videojsLoadCallback;
 script.onerror = videojsErrorCallback;
 
