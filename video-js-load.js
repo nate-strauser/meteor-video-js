@@ -1,6 +1,6 @@
 //Functions to run after the script tag has loaded
 var videojsLoadCallback = function(){
-	_V_.options.flash.swf = "//vjs.zencdn.net/4.1/video-js.swf";
+	videojs.options.flash.swf = "//vjs.zencdn.net/4.1/video-js.swf";
 };
 
 //If the script doesn't load
