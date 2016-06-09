@@ -1,7 +1,7 @@
 Package.describe({
       name:"natestrauser:videojs",
-      summary: "A smart package that makes it easy to use Video.js",
-  version: "4.10.0",
+      summary: "Load Video.js via CDN",
+  version: "5.10.5",
   git: "https://github.com/nate-strauser/meteor-video-js.git"
 });
 

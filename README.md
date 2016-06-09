@@ -1,4 +1,4 @@
 meteor-video-js
 ===============
 
-Video.js packaged for meteor
+Video.js loaded via CDN
